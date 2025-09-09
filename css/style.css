@@ -1,0 +1,33 @@
+body{
+  background-color: #0f0f10;
+}
+h1{
+  color: rgb(202, 202, 202);
+}
+hr{
+  border: 2px solid rgb(132, 102, 102);
+}
+a{
+  text-decoration: none;
+}
+button{
+  color: #c5baba;
+  margin: 10px 0px 0px 10px;
+  width: 200px;
+  height: 80px;
+  font-size: 28px;
+  cursor: pointer;
+  background-color: #000000;
+  border-radius: 5px;
+  font-family:'Times New Roman', Times, serif;
+  border: 1px solid #c5baba;
+  transition: 0.3s;
+  font-style: bold;
+}
+button:hover{
+  color: black;
+  background-color: #9a9a9a;
+  transition: 0.4s;
+  border: 1px solid #b6b6b6;
+  font-style: bold;
+}
