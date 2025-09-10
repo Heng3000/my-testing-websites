@@ -2,17 +2,43 @@
 <html>
   <head>
     <title>Welcome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap" rel="stylesheet">
     <style>
       h2{
-        color: rgb(76, 76, 76);
-        margin-bottom: 0%;
-      }
-      ul, li{
-          margin-top: 8px;
+        font-size: 24px;
       }
       li{
-        font-size: larger;
-        color: rgb(0, 0, 154);
+        font-size: 20px;
+      }
+      hr{
+        border: 1px solid black;
+      }
+      .section-1 h2{
+        color: dimgray;
+      }
+      .section-1 li{
+        color: darkblue;
+        margin-top: 10px;
+      }
+      .section-1 li::marker{
+        color: black;
+      }
+
+      .section-2 h2{
+        color: darkred;
+        font-family: 'Times New Roman','Battambang', cursive;
+      }
+      .section-2 li{
+        font-family: 'Battambang', cursive;
+      }
+
+      .section-3 h2, li{
+        font-family: 'Battambang', cursive;
+      }
+      .section-3 li{
+        margin-top: 5px;
       }
     </style>
   </head>
@@ -28,6 +54,39 @@
         <li>Joomla Developer</li>
         <li>ASP.NET Web Development</li>
       </ul>
+    </div>
+    <div class="section-2">
+      <hr>
+      <h2>បង្កើតគេហទំព័រជាមួយ HTML</h2>
+      <ul>
+        <li>ស្វែងយល់ពី HTML និង របៀបក្នុងការសរសេរ</li>
+        <li>សិក្សាពីការ Format អក្សរដូចជា៖</li>
+        <ul type="circle">
+          <li>គូសបន្ទាត់ពីក្រោម</li>
+          <li>សរសេរអក្សរទ្រេត</li>
+          <li>ឆូតអក្សរចោល</li>
+          <li>ដាក់អក្សរដិត</li>
+          <li>ដាក់ចំណងជើង (ធំតូច)</li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    <div class="section-3">
+      <h2>Table Of Content</h2>
+      <ol>
+        <li>HTML Introduction</li>
+        <ul>
+          <li>អ្វីទៅជាភាសា HTML</li>
+          <li>HTML Tage</li>
+          <li>HTML Element</li>
+          <li>HTML Structure</li>
+          <li>HTML Attribute</li>
+          <li>HTML Comment</li>
+          <li>HTML Entity</li>
+        </ul>
+        <li>HTML Formatting Tag</li>
+        <li>Attribute Body</li>
+      </ol>
     </div>
   </body>
 </html>
