@@ -1,0 +1,27 @@
+/* project-4.css */
+
+table {
+  width: 600px;
+  border-collapse: collapse; /* បង្រួមព្រំដែនដើម្បីកុំឱ្យមានចន្លោះរវាង cells */
+}
+
+th, td {
+  border: 3px solid black;
+}
+td{
+  height: 50px;
+  padding: 5px;
+}
+tr.header{
+  text-align: center;
+  font-weight: bold;
+}
+footer{
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+h4{
+  color: gray;
+}
