@@ -45,6 +45,7 @@ body{
 }
 .nav-bar ul li a{
   text-decoration: none;
+  color: black;
 }
 .bodys{
   border: 1px solid gray;
