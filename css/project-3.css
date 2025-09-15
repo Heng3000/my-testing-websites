@@ -1,0 +1,127 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(238, 222, 170)
+}
+.main-body{
+  width: 900px;
+  background-color: pink;
+  margin-bottom: 50px;
+}
+.heads {
+  height: 150px;
+  align-content: center;
+  background-color: rgb(225, 223, 99);
+  border: 1px solid gray;
+}
+.heads h1,
+.heads h2{
+  padding-left: 640px;
+}
+.hr{
+  height: 15px;
+  background-color: white;
+}
+.nav-bar ul{
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  border: 1px solid gray;
+  margin-left: 14.5px;
+  margin-right: 14.5px;
+  margin-bottom: 0px;
+}
+.nav-bar ul li{
+  width: 145px;
+  height: 40px;
+  background-color: rgb(255, 254, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-bar ul li:hover{
+  background-color: rgb(213, 229, 243);
+}
+.nav-bar ul li a{
+  text-decoration: none;
+}
+.bodys{
+  border: 1px solid gray;
+}
+.content table tr th.left{
+  padding-left: 15px;
+  padding-right: 10px;
+  text-align: justify;
+  width: 220px;
+  border-right: 2px solid yellow;
+  vertical-align: top;
+  margin: 0%;
+}
+.content table tr th.left h2{
+  margin-top: 5px;
+  background-color: yellow;
+}
+.content table tr th.left p{
+  margin: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: normal;
+}
+.content table tr th.right{
+  padding-left: 5px;
+  padding-right: 10px;
+  vertical-align: top;
+  text-align: justify;
+}
+.content table tr th.right p{
+  font-weight: normal;
+}
+tr.paragraph td.left,
+tr.paragraph td.right{
+  width: 315px;
+  vertical-align: top;
+  text-align: justify;
+}
+tr.paragraph td{
+  padding-left: 5px;
+  padding-right: 10px;
+}
+td.left {
+  border-right: 2px solid yellow;
+}
+td.left, td.right{
+  position: relative;
+}
+.td-left, .td-right{
+  position: absolute;
+}
+.td-left, .td-right{
+  padding: 0%;
+  display: flex;
+  width: 95%;
+  height: 40px;
+  background-color: pink;
+  align-items: flex-start;
+  bottom: -9px;
+}
+.td-left h3,
+.td-right h3{
+  background-color: yellow;
+  margin-top: 0%;
+  margin-left: 10px;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  text-align: center;
+  align-content: center;
+}
+h2.copy{
+  margin-top: 70px;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: rgb(255, 0, 0);
+  background-color: yellow;
+  height: 40px;
+}
